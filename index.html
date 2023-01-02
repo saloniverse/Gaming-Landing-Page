@@ -9,8 +9,8 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <main class="bg-[url('./Assets/Photos/futuristic-bg.png')] h-screen px-20">
-        <nav class="text-slate-300 flex w-full justify-between items-center">
+    <main class="bg-[url('./Assets/Photos/futuristic-bg.png')] h-screen">
+        <nav class="px-20 backdrop-brightness-50 text-slate-300 flex w-full justify-between items-center">
            <div class="flex gap-12">
             <img src="./Assets/Icons/Logo.svg" alt="" class="w-28 h-20">
             <ul class="flex justify-center items-center gap-6 ml-6 list-none">
@@ -25,21 +25,21 @@
             <button class="px-7 py-2 text-white bg-orange-500 ml-6">Sign Up</button>
            </div>
         </nav>
-        <section class="text-white py-28 flex">
-        <div class="w-1/2 flex flex-col gap-8">
-            <h1 class="text-5xl font-bold">Play Game Everytime Always Be Winner And Strong</h1>
+        <section class="px-20 backdrop-brightness-50 text-white py-20 flex gap-20">
+        <div class="w-1/2 flex flex-col gap-6">
+            <h1 class="text-5xl font-bold leading-snug">Play Game Everytime Always Be Winner And Strong</h1>
             <p class="w-4/5 text-neutral-400 text-sm">Improve your gaming skills by playing games that are currently popular so that you don't go out of style improve skills</p>
             <div>
-                <button class="px-7 py-2 text-white bg-orange-500 border-2 border-orange-500">Get started</button>
-                <button class="px-7 py-2 border-2 border-neutral-300">Learn more</button>
+                <button class="px-7 py-2 text-white bg-orange-500 border-1 border-orange-500">Get started</button>
+                <button class="px-7 py-2 border-2 border-neutral-300 ml-4">Learn more</button>
             </div>
         </div>
-        <div class="w-1/2 flex justify-center items-center">
+        <div class="w-1/2 flex flex-col items-center justify-center">
             <img src="./Assets/Icons/playButton.svg" alt="">
-            <div class="self-end flex justify-end items-end">
-                <img src="./Assets/Icons/dash.svg" alt="" class="w-[60px] self-start">
+            <div class="absolute bottom-10 m-auto flex justify-end items-end">
+                <img src="./Assets/Icons/dash.svg" alt="" class="w-[50px] mt-4 mr-4 self-start">
                 <p class="text-xl">The King Of Terania<br>And Last Seasion<br>XXIV</p>
-                <img src="./Assets/Icons/nextArrow.svg" alt="" class="w-[60px]">
+                <img src="./Assets/Icons/nextArrow.svg" alt="" class="w-[60px] ml-4">
             </div>
         </div>
         </section>
@@ -126,5 +126,105 @@
                 </div>
             </div>  
     </section>
+    <section class="px-28">
+        <div class="flex justify-around items-center">
+            <h1 class="w-1/3 text-3xl font-bold">Game Recommend For You This Week</h1>
+            <div>
+                <img src="./Assets/Icons/leftArrow.svg" alt="leftArrow" class="inline-block px-3 py-5 bg-orange-100">
+                <img src="./Assets/Icons/nextArrow.svg" alt="nextArrow" class="ml-4 inline-block px-3 py-5 text-white bg-orange-500">
+            </div>
+        </div>
+        <div class="grid grid-rows-2 grid-cols-2 gap-x-8 py-16">
+            <div class="flex">
+                <img src="./Assets/Photos/Rectangle75.png" alt="" class="w-1/2 h-5/6">
+                <div class="ml-6 flex flex-col gap-2">
+                    <h2 class="text-2xl font-bold">The world's strongest human battle</h2>
+                    <p class="text-orange-500">Action, Sport</p>
+                    <p class="text-xs text-neutral-500">This is a game about the battle of the strongest humans on earth</p>
+                    <div class="mt-3"><button class="px-7 py-2 text-white bg-orange-500">Download</button></div>
+                </div>
+            </div>
+            <div class="flex">
+                <img src="./Assets/Photos/Rectangle76.png" alt="" class="w-1/2 h-5/6">
+                <div class="ml-6 flex flex-col gap-2">
+                    <h2 class="text-2xl font-bold">The world's strongest human battle</h2>
+                    <p class="text-orange-500">Action, Sport</p>
+                    <p class="text-xs text-neutral-500">This is a game about the battle of the strongest humans on earth</p>
+                    <div class="mt-3"><button class="px-7 py-2 text-white bg-orange-500">Download</button></div>
+                </div>
+            </div>
+            <div class="flex">
+                <img src="./Assets/Photos/Rectangle77.png" alt="" class="w-1/2 h-5/6">
+                <div class="ml-6 flex flex-col gap-2">
+                    <h2 class="text-2xl font-bold">The world's strongest human battle</h2>
+                    <p class="text-orange-500">Action, Sport</p>
+                    <p class="text-xs text-neutral-500">This is a game about the battle of the strongest humans on earth</p>
+                    <div class="mt-3"><button class="px-7 py-2 text-white bg-orange-500">Download</button></div>
+                </div>
+            </div>
+            <div class="flex">
+                <img src="./Assets/Photos/Rectangle78.png" alt="" class="w-1/2 h-5/6">
+                <div class="ml-6 flex flex-col gap-2">
+                    <h2 class="text-2xl font-bold">The world's strongest human battle</h2>
+                    <p class="text-orange-500">Action, Sport</p>
+                    <p class="text-xs text-neutral-500">This is a game about the battle of the strongest humans on earth</p>
+                    <div class="mt-3"><button class="px-7 py-2 text-white bg-orange-500">Download</button></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-black text-white px-32 py-16">
+        <h1 class="text-3xl font-semibold text-center">Most Played Games<br>Of The Year</h1>  
+        <div class="flex gap-16 mt-8">   
+            <div class="w-[800px] h-[450px]"><img src="./Assets/Photos/Rectangle17.png" alt=""></div>
+            <div class="flex flex-col justify-between">
+                <p class="mt-12 text-sm text-neutral-500 w-4/5">We have data on the most played games this year and as a result, games about battles and wars are very popular with gamers at this time, so we recommend this game into your cart to be used as your game.</p>  
+                <div class="flex items-end">
+                    <img src="./Assets/Photos/Rectangle18.png" alt="" class="w-1/3 inline-block"> 
+                    <img src="./Assets/Photos/Rectangle90.png" alt="" class="w-1/3 ml-10 inline-block">    
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-[url('./Assets/Photos/Rectangle606.png')] bg-cover bg-no-repeat">
+    <div class="w-full h-full backdrop-brightness-50 py-32 flex flex-col gap-3 justify-center items-center">
+        <h1 class="text-3xl text-white font-bold text-center">Have An Unforgettable<br>Experience</h1>
+        <p class="text-sm text-neutral-400 text-center">Have an unforgettable experience and play now to<br>get attractive promos</p>
+        <button class="px-7 py-2 text-white bg-orange-500 mt-6">Get started</button>
+    </div>
+    </section>
+    <footer class="bg-black text-neutral-500 flex px-32 py-8">
+        <div>
+            <img src="./Assets/Icons/Logo.svg" alt="">
+            <p class="w-4/6 mt-2 mb-5">Play lots of games here and subscribe right away</p>
+            <img src="./Assets/Icons/facebook.svg" alt="" class="inline-block">
+            <img src="./Assets/Icons/instagram.svg" alt="" class="inline-block ml-1">
+            <img src="./Assets/Icons/twitter.svg" alt="" class="inline-block ml-1">
+        </div>
+       <div class="grid grid-cols-4 grid-rows-6 gap-y-3 gap-x-10">
+        <span class="text-neutral-200">Articles</span>
+        <span class="text-neutral-200">Leagues</span>
+        <span class="text-neutral-200">Team</span>
+        <span class="text-neutral-200"> Get in touch</span>
+        <span>Crowfunding</span>
+        <span>Our story</span>
+        <span>About us</span>
+        <span>(704) 555-0127</span>
+        <span>Website donations</span>
+        <span>Community driven</span>
+        <span>FAQ</span>
+        <span></span>
+        <span>Careers</span>
+        <span>Our Customer</span>
+        <span>Privacy & Policy</span>
+        <span></span>
+        <span>Event registrations</span>
+        <span>Expert support</span>
+        <span>Help</span>
+        <span></span>
+        <span>Newsrooms</span>
+    </div>
+    </footer>
+     <hr class="border-neutral-500 pb-16 bg-black">
 </body>
 </html>
